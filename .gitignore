@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+checkpoints/
+data/
+experiments/
+samples/
+results/
+wandb/
+*.mp4
+latency.json
