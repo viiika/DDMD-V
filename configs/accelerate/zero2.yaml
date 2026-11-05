@@ -1,0 +1,10 @@
+distributed_type: DEEPSPEED
+deepspeed_config:
+  deepspeed_multinode_launcher: standard
+  gradient_clipping: 0.0          # set per engine from optim.grad_clip
+  zero_stage: 2
+  offload_optimizer_device: none
+  offload_param_device: none
+num_machines: 1
+num_processes: 8
+machine_rank: 0
