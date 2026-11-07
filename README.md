@@ -1,17 +1,15 @@
 # DDMD-V: Distilling Uniform Discrete Diffusion Models into a One-Step Video Generator
 
+[![arXiv](https://img.shields.io/badge/arXiv-2410.08261-b31b1b.svg)](https://arxiv.org/abs/)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Huggingface-Model_Meissonic-yellow)](https://huggingface.co/MeissonFlow/Mei)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/viiika/DDMD-V)
+
+
+## Introduction
+
 **DDMD-V** (Discrete Distribution Matching Distillation for Video) distills the uniform discrete
-video diffusion model [URSA](https://github.com/baaivision/URSA) into a one-step generator **Mei**.
-
-Paper: TODO
-
-## Method
-
-DDMD-V trains the one-step student with two complementary signals.
-
-**On-policy categorical distribution matching.** 
-
-**Spatiotemporal adversarial supervision.** 
+video diffusion model [URSA](https://github.com/baaivision/URSA) into a comparable one-step generator **Mei**.
+It trains the one-step student with two complementary signals: On-policy categorical distribution matching, and Spatiotemporal adversarial supervision.
 
 ## Results
 
@@ -24,7 +22,6 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Checkpoints
 
 ## Inference
 
